@@ -152,7 +152,7 @@ class ApplyCancelButtons extends React.Component {
         { backgroundColor: this.state.hoverColourApply },
         this.applyOnKeyPress,
         this.applyOnFocus,
-        this.applyOnBlur,        
+        this.applyOnBlur,
         (this.props.local && this.props.local.apply) ?
           typeof this.props.local.apply === "function" ?
             this.props.local.apply(this.props.dateSelectedNoTimeCallback) : this.props.local.apply
